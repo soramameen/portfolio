@@ -10,7 +10,7 @@ export default function Navbar() {
         </Link>
         <div className="space-x-4">
           <Link href="/about">
-            <span className="hover:text-blue-500 cursor-pointer">About</span>
+            <span className="hover:text-blue-500 cursor-pointer">About Me</span>
           </Link>
           <Link href="/projects">
             <span className="hover:text-blue-500 cursor-pointer">Projects</span>

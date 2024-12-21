@@ -5,7 +5,7 @@ import { Project } from "./types/types";
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Head>
         <title>Home | My Portfolio</title>
       </Head>
@@ -23,6 +23,6 @@ export default function Home() {
           </>
         );
       })}
-    </>
+    </div>
   );
 }

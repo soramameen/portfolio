@@ -4,21 +4,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { projects } from "@/app/lib/projects";
 import { Project } from "@/app/types/types";
-
-interface ProjectPageProps {
-  params: {
-    slug: string;
-  };
-}
-
+type tParams = Promise<{ slug: string }>;
 export async function generateStaticParams() {
   return projects.map((project) => ({
     slug: project.slug,
   }));
 }
 
-export default async function ProjectPage({ params }: ProjectPageProps) {
-  const { slug } = await params;
+export default async function ProjectPage(props: { params: tParams }) {
+  const { slug } = await props.params;
   const project = projects.find((p) => p.slug === slug);
 
   if (!project) {

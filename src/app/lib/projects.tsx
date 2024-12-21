@@ -8,8 +8,8 @@ export const projects: Project[] = [
     name: "ニュースクイズアプリ",
     description: "最新のニュース記事をクイズ形式で提供するアプリケーション。",
     techStack: ["Next.js", "NewsAPI", "OpenAI API", "Tailwind CSS", "Vercel"],
-    demoLink: "https://example.com/newsquiz",
-    githubLink: "https://github.com/yourusername/newsquiz",
+    demoLink: "https://www.snapquiz.jp/",
+    githubLink: "https://github.com/soramameen/it-quiz-app",
     image: "/images/news.png",
   },
   {
@@ -17,8 +17,8 @@ export const projects: Project[] = [
     name: "UniStudyGuide!",
     description: "おすすめの参考書を紹介するアフィリエイトアプリ。",
     techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
-    demoLink: "https://example.com/affiliatebook",
-    githubLink: "https://github.com/yourusername/affiliatebook",
+    demoLink: "hhttps://www.unistudyguide.com/",
+    githubLink: "https://github.com/soramameen/my-study-app",
     image: "/images/book.png",
   },
 
@@ -34,7 +34,7 @@ export const projects: Project[] = [
       "Dynamic Memory Allocation",
     ],
     demoLink: "https://example.com/profile-management-system-demo", // 必要に応じて実行例のURLを追加
-    githubLink: "https://github.com/yourusername/profile-management-system", // GitHubリポジトリのURLを追加
+    githubLink: "https://github.com/soramameen/c_profile", // GitHubリポジトリのURLを追加
     image: "/images/cprogramming.png", // プロジェクトのスクリーンショットや関連画像を追加
   },
 ];
